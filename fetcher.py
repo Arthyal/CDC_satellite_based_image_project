@@ -20,7 +20,7 @@ df_test.to_csv('test2.csv',index=False)
 
 EXCEL_FILES = [
     "train(1).xlsx",
-    "test.xlsx"
+    "test2.xlsx"
 ]
 
 def outer_download_image(EXCEL_PATH):
@@ -63,6 +63,7 @@ def outer_download_image(EXCEL_PATH):
 
 for path in EXCEL_FILES:
     outer_download_image(path)
+
 
 
    
